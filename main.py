@@ -4,7 +4,7 @@ import docker
 
 website_url = "https://libre-media.com"
 container_name = "lm-api"
-check_interval = 120 # Time in seconds for the interval 
+check_interval = 60 # Time in seconds for the interval 
 
 # Docker client
 docker_client = docker.from_env()
